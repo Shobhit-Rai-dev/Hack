@@ -1,0 +1,33 @@
+# Node
+node_modules/
+dist/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+
+# Environment secrets
+.env
+.env.*
+
+# Keep environment template
+!.env.example
+
+# Test artifacts & databases
+.pytest_cache/
+.coverage
+htmlcov/
+*.db
+*.sqlite3
+test_*.db
+
+# IDE
+.idea/
+.vscode/
+
+# Operating system
+.DS_Store
+Thumbs.db
