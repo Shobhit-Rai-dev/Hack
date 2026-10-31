@@ -46,11 +46,13 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+/* Accessible Focus States */
 a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible {
   outline: 2px solid var(--primary-accent);
   outline-offset: 2px;
 }
 
+/* App Layout */
 .app-container {
   display: flex;
   min-height: 100vh;
@@ -132,7 +134,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
   font-style: italic;
 }
 
-
+/* Navigation Links */
 .nav-link {
   display: flex;
   align-items: center;
@@ -159,6 +161,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
   box-shadow: inset 1px 1px 3px rgba(53, 39, 25, 0.03);
 }
 
+/* Buttons */
 .btn {
   background-color: var(--primary-accent);
   color: #FFFAEF;
@@ -201,6 +204,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
   background-color: #8C6A30;
 }
 
+/* Cards & Panels */
 .card {
   background-color: var(--bg-card);
   border: 1px solid var(--standard-border);
@@ -217,6 +221,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
   border-top: 3px solid var(--primary-accent);
 }
 
+/* Tables */
 .table-wrapper {
   overflow-x: auto;
   border: 1px solid var(--standard-border);
@@ -262,6 +267,7 @@ tr:hover {
   color: var(--text-primary);
 }
 
+/* Wax-Seal Badges */
 .badge {
   display: inline-flex;
   align-items: center;
@@ -299,7 +305,7 @@ tr:hover {
   border-color: rgba(79, 107, 130, 0.25);
 }
 
-
+/* Forms */
 input, select, textarea {
   width: 100%;
   padding: 9px 12px;
@@ -328,6 +334,7 @@ label {
   margin-bottom: 6px;
 }
 
+/* Dividers & Utility */
 .ornamental-divider {
   display: flex;
   align-items: center;
@@ -343,6 +350,7 @@ label {
 .ornamental-divider:not(:empty)::before { margin-right: .75em; }
 .ornamental-divider:not(:empty)::after { margin-left: .75em; }
 
+/* Mobile Drawer Overlay */
 .mobile-backdrop {
   display: none;
 }
@@ -378,6 +386,7 @@ label {
   }
 }
 
+/* Printable Clean State */
 @media print {
   body {
     background: #FFFFFF !important;
